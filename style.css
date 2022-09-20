@@ -1,0 +1,112 @@
+body
+{
+    font-family: Helvetica, Sans-Serif;
+    color: white;
+}
+
+main {
+  background: rgba(0, 0, 0, 0.5) url("./background-films.jpeg");
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+  width: 250px;
+}
+button {
+  background-color: #e50a15;
+  color: white;
+  padding: 10px;
+}
+select {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-right: 30px;
+}
+.buttons-header {
+    margin: 30px 60px 30px 30px;
+
+}
+h1{
+    text-align:center;
+    font-size: 60px;
+    width: 700px;
+    margin: auto;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 25px;
+    font-weight: 300;
+}
+p {
+    font-size: 18px;
+}
+.main-content {
+text-align: center;
+margin-top: 150px;
+text-align: center;
+
+}
+.form-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-email {
+    height: 70px;
+    margin: 0;
+    border: 0;
+   
+}
+.empezar-button {
+    background-color: #e50a15;
+    color: white;
+    font-size: 36px;
+    padding: 15px;
+    margin: 0;
+}
+section {
+    background-color: black;
+    min-height: 450px;
+    border-top: 10px solid #222222;
+}
+.section-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-home img {
+    width: 500px;
+
+}
+.text-section {
+    width: 500px;
+}
+.section-faq{
+    text-align: center;
+}
+.faq {
+    text-align: left;
+    width: 1000px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+    margin-bottom: 60px;
+}
+li {
+    background-color: #303030;
+    margin: 5px;
+    padding: 15px;
+    font-size: 32px;
+}
